@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.title {
+  width: calc(33.33%);
+  border: 1px solid black;
+}
+
+.content {
+  display: flex;
+}
+
+.secondBgColor {
+  background-color: #c7c6c6;
+}
