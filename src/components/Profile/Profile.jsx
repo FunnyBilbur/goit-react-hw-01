@@ -1,7 +1,13 @@
 import css from './Profile.module.css';
 // import clsx from 'clsx';
 
-export const Profile = ({ name, tag, location, image, stats }) => {
+export const Profile = ({
+  name,
+  tag,
+  location,
+  image,
+  stats = { likes: 0, followers: 0, views: 0 },
+}) => {
   return (
     <div className={css.card}>
       <div className={css.info}>
